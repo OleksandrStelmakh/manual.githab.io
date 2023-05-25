@@ -1,4 +1,8 @@
-## LOG ANALYZER DASHBOARD – USER GUIDE 
+---
+layout: page
+title: LOG ANALYZER DASHBOARD – USER GUIDE 
+description: Log Analyzer Dashboard is a tool for internal use.
+---
 
  - Product: IBIS Controller 
  - Component: Log files 
@@ -10,7 +14,7 @@ Log Analyzer Dashboard is a tool for internal use
 
 Development of the tool is split into several phases, with each phase adding more functionality.  
 
-## #ff0000 PURPOSE 
+## PURPOSE 
 
 Purpose of the tool is to assist global support teams worldwide to analyse log files coming from all IDS Software 
 
@@ -24,7 +28,7 @@ Log files from multiple sessions (same radar) can be uploaded and joined togethe
 
 * There are 2 distinct parts of the system with different web links for each 
 
- - Log Upload / Site list management tool 
+  - Log Upload / Site list management tool 
 
  - Log dashboard / analyzer tool 
 
