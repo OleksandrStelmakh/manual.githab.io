@@ -1,8 +1,4 @@
----
-layout: page
-title: LOG ANALYZER DASHBOARD – USER GUIDE 
-description: Log Analyzer Dashboard is a tool for internal use.
----
+## LOG ANALYZER DASHBOARD – USER GUIDE 
 
  - Product: IBIS Controller 
  - Component: Log files 
