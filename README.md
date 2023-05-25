@@ -36,6 +36,6 @@ NOTES
 
 3. Log upload tool will accept a ZIP file exported from IBIS Controller version 4.5 and above using Export Log Button. It is possible to export logs from different sessions and upload them to the portal. 
 
- ![Start](/assets/start.png)
+![Start](/assets/start.png)
 
 4. Log Upload / Installations management tool 
