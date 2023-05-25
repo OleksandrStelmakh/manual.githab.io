@@ -4,50 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{path}}splash.css" />
-    <link rel="stylesheet" href="{{path}}bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/manual.css" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
   </head>
+
   <body>
     <div class="container">
-      <div class="row d-flex">
-        <a href="https://cloudavocado.com/" target="_blank">
-          <img class="p-3" src="{{path}}logo-1.png" alt="Logo" />
-        </a>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center text-uppercase p-5">
+            LOG ANALYZER DASHBOARD – USER GUIDE
+          </h2>
+          <ul style="margin-left: auto; width: fit-content">
+            <li>
+              Product: IBIS Controller Component: Log files Update: 05/05/2023
+            </li>
+            <li>Component: Log files Update: 05/05/2023</li>
+            <li>Update: 05/05/2023</li>
+          </ul>
+        </div>
 
-        <p class="p-3 text-center lh-lg">
-          CloudAvocado's cloud computing services can help you to take advantage
-          of the scalability, flexibility, and cost savings offered by
-          cloud-based technologies. By working with CloudAvocado, you can ensure
-          that your cloud infrastructure is optimized and their applications are
-          designed to take full advantage of the cloud platform
-        </p>
+        <div class="col-md-12">
+          <h3 class="text-left text-uppercase">DESCRIPTION</h3>
+          <hr>
+          <p>Log Analyzer Dashboard is a tool for internal use</p>
+          <p>
+            Development of the tool is split into several phases, with each
+            phase adding more functionality.
+          </p>
+        </div>
 
-        <a class="text-center" href="https://cloudavocado.com/" target="_blank">
-          <button class="btn btn-success avocado-background-color">
-            cloudavocado.com
-          </button>
-        </a>
+        <div class="col-md-12">
+          <h3 class="text-left text-uppercase">PURPOSE</h3>
+          <hr>
+          <p>
+            Purpose of the tool is to assist global support teams worldwide to
+            analyse log files coming from all IDS Software
+          </p>
+        </div>
 
-        <h1 class="text-center p-3 avocado-text-color">Up to -70% of cost</h1>
+        <div class="col-md-12">
+          <p>Cloud based tool, with web link to login.</p>
+          <p>
+            Recommended Web Browsers – Google Chrome / Firefox / Microsoft Edge
+          </p>
+          <p>
+            Log files from multiple sessions (same radar) can be uploaded and
+            joined together for easier analysis
+          </p>
+          <ul style="list-style-type: circle">
+            <li>
+              <p>
+                There are 2 distinct parts of the system with different web
+                links for each
+              </p>
+              <ul>
+                <li style="list-style-type: square">
+                  Log Upload / Site list management tool
+                </li>
+                <li style="list-style-type: square">
+                  Log dashboard / analyzer tool
+                </li>
+              </ul>
+            </li>
+            <li>
+              Log Upload tool is for uploading the log files and managing the
+              list of systems
+            </li>
+          </ul>
+          <p>
+            Log Dashboard is for analyzing already uploaded and processed data.
+          </p>
+        </div>
 
-        <img class="p-3" src="{{path}}avocado-tailoring.png" alt="Logo" />
-
-        <p>
-          <small
-            >Approximate price per hour, using Linux machine, your price may
-            vary, for better accuracy consider using
-            <a
-              class="avocado-text-color"
-              href="https://cloudavocado.com/"
-              target="_blank"
-              >CloudAvocado.com</a
-            ></small
-          >
-        </p>
-
-        <p class="fs-6 text text-center">
-          2023 CloudAvocado. All Rights Reserved
-        </p>
+        <div class="col-md-12">
+          <h3 class="text-left text-uppercase">NOTES</h3>
+          <hr>
+          <ul style="list-style-type: circle">
+            <li>
+              <p>
+                Log upload tool will accept a ZIP file exported from IBIS
+                Controller version 4.5 and above using Export Log Button. It is
+                possible to export logs from different sessions and upload them
+                to the portal.
+              </p>
+              <div class="w-75 mx-auto p-3" >
+                <img class="w-100" src="./assets/start.png" alt="start" />
+              </div>
+            </li>
+            <li>Log Upload / Installations management tool</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
