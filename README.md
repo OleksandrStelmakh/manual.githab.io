@@ -26,7 +26,7 @@ Log files from multiple sessions (same radar) can be uploaded and joined togethe
 
   - Log Upload / Site list management tool 
 
- - Log dashboard / analyzer tool 
+  - Log dashboard / analyzer tool 
 
 * Log Upload tool is for uploading the log files and managing the list of systems 
 
